@@ -1,27 +1,50 @@
-# Wodclock
+# Wodclock 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+[![Build Status](https://travis-ci.org/jstuyck/wodclock.svg?branch=master)](https://travis-ci.org/jstuyck/wodclock)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+demo (https://wodclock.firebaseapp.com/)
 
-## Code scaffolding
+## About Wodclock
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Work Of the Day clock is your perfect buddy when pumping Iron. 
 
-## Build
+Its mission is to count time while you suffer pulling, pushing, sweating.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installing
 
-## Running end-to-end tests
+To build `wodclock` :
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```bash
+$ npm install
+$ npm install --save @angular/cli
+$ ng serve --load
+# or
+$ npm install
+$ npm install --save @angular/cli
+$ ng build --prod
+```
 
-## Further help
+## Supported Modes
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[Work in Progress]  
+
+### Count Down
+
+[Work in Progress]
+
+### Count Up
+
+[Work in Progress]
+
+### Clock 12/24
+
+[Work in Progress]
+
+### Fight Gone Bad
+
+[Work in Progress]
