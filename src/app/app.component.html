@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <div>
+    <h1 class="mat-headline text-red">{{ mode }} {{ min ? ( min  | number: '2.0' ) : " "}}:{{ sec | number: '2.0' }}</h1>  
+  </div>
+  <button (click)="start()" mat-raised-button color="primary">START</button>
+  <button (click)="stop()" mat-raised-button color="primary">STOP</button>
+  <button (click)="reset()" mat-raised-button color="primary">RESET</button>
+
+  <button (click)="startFGB()" mat-raised-button color="primary">FGB</button>
+</div>
