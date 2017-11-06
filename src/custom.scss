@@ -29,7 +29,8 @@ $custom-typography: mat-typography-config(
 
 body {   
   text-align: center;  
-  background-color: black;     
+  background-color: black;   
+  transform: translateY(100%);  
 }
 
 @include mat-base-typography($custom-typography);
