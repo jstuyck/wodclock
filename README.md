@@ -1,4 +1,4 @@
-# Wodclock 
+# Wodclock 💪⏰🏋️
 
 [![Build Status](https://travis-ci.org/jstuyck/wodclock.svg?branch=master)](https://travis-ci.org/jstuyck/wodclock)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)

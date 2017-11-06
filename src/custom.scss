@@ -27,6 +27,11 @@ $custom-typography: mat-typography-config(
     $headline: mat-typography-level(128px, 128px, 900)   
   );
 
+body {   
+  text-align: center;  
+  background-color: black;     
+}
+
 @include mat-base-typography($custom-typography);
 
 @include angular-material-theme($candy-app-theme);

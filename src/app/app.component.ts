@@ -47,7 +47,6 @@ export class AppComponent implements OnInit {
     } else {
       this.sec -= 1;
     }
-    console.log (this.  intervalHandler);
   }
 
   reset () {
