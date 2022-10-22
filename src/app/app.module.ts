@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {MatButtonModule} from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
 
 import { NgModule } from '@angular/core';
 
