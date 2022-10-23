@@ -1,13 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <div>
-    <h1 class="mat-headline text-red">{{ mode }} {{ min ? ( min  | number: '2.0' ) : " "}}:{{ sec | number: '2.0' }}</h1>  
+<div class="container mat-typography">
+  <div class="row">
+    <h4 class="text-red">{{ clockSate.masterclock | date : 'dd-MMM HH:mm:ss' }}</h4>  
   </div>
-  <button (click)="start()" mat-raised-button color="primary">START</button>
-  <button (click)="stop()" mat-raised-button color="primary">STOP</button>
-  <button (click)="reset()" mat-raised-button color="primary">RESET</button>
-
-  <button (click)="startFGB()" mat-raised-button color="primary">FGB</button>
-  <button (click)="min=min+1" mat-raised-button color="warn">+1 min</button>
-  <button (click)="sec=sec+1" mat-raised-button color="warn">+1 sec</button>
 </div>

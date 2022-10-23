@@ -3,3 +3,18 @@
     size: 10rem;
 }
 
+.container {
+    display: flex;
+    
+}
+
+.row {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row
+}
+
+.col {
+    justify-content: space-between;
+    flex-direction: col
+}
