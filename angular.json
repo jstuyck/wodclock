@@ -130,7 +130,6 @@
       }
     }
   },
-  "defaultProject": "adsf",
   "schematics": {
     "@schematics/angular:class": {
       "skipTests": true
