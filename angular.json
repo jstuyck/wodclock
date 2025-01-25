@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "adsf:build"
+            "buildTarget": "adsf:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "adsf:build:production"
+              "buildTarget": "adsf:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "adsf:build"
+            "buildTarget": "adsf:build"
           }
         },
         "test": {
