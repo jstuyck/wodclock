@@ -1,6 +1,6 @@
 
 import { BrowserModule } from '@angular/platform-browser';
-import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
+
 
 import { NgModule } from '@angular/core';
 
@@ -16,11 +16,11 @@ import { CoreModule } from './core/core.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatButtonModule,
+    
     CoreModule
   ],
   exports: [
-    MatButtonModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
